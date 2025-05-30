@@ -175,3 +175,4 @@ cython_debug/
 
 # Data folders
 raw_data
+results

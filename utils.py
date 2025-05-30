@@ -77,8 +77,8 @@ def extract_pixel_size(image):
         # Extract pixel sizes (tuple unpacking)
         pixel_size_x, pixel_size_y, voxel_size_z = voxel_size
 
-        print(f"Pixel size: {pixel_size_x:.3f} µm x {pixel_size_y:.3f} µm")
-        print(f"Voxel (Z-step) size: {voxel_size_z:.3f} µm")
+        #print(f"Pixel size: {pixel_size_x:.3f} µm x {pixel_size_y:.3f} µm")
+        #print(f"Voxel (Z-step) size: {voxel_size_z:.3f} µm")
 
     return pixel_size_x, pixel_size_y, voxel_size_z
 
